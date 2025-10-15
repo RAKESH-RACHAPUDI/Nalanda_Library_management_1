@@ -81,7 +81,7 @@ nalanda_backend/
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/RAKESH-RACHAPUDI/Nalanda_Library_management_1.git>
    cd nalanda_backend
    ```
 
@@ -93,8 +93,8 @@ nalanda_backend/
 3. **Environment Configuration**
    Create a `.env` file in the root directory with the following variables:
    ```env
-   MONGO_URI=mongodb://localhost:27017/nalanda_library
-   JWT_SECRET=your_super_secret_jwt_key_here
+   MONGO_URI=mongodb://localhost:27017/library_management
+   JWT_SECRET=nalandaSecretKey123
    PORT=5000
    ```
 
@@ -103,7 +103,7 @@ nalanda_backend/
 
 5. **Start the server**
    ```bash
-   npm start
+   node server.js
    ```
 
    The server will start on `http://localhost:5000`
